@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# ML artifacts
+outputs/
+outputs_finetune/
+metrics/
+*.pth
+*.pt
+*.ckpt
+runs/
+wandb/
+tensorboard/
+*.png
+*.jpg
+*.jpeg
+*.mp4
+*.wav
+*.avi
+
+# Datasets (downloaded locally)
+data/
+dataset/raw/
+dataset/processed/
+*.zip
+*.tar
+*.tar.gz
+
+# IDE & OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+.env.*
+*.pem
+credentials.json
