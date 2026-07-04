@@ -49,3 +49,9 @@ Thumbs.db
 .env.*
 *.pem
 credentials.json
+
+# Local-only project docs and generators
+ALL FOR MINOR/
+generate_ppt.py
+generate_report_docx.py
+Project_Report_DeepfakeDetection.md
